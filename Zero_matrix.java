@@ -32,7 +32,7 @@ public class Zero_matrix {
     }
 
     public static void main(String[] args) {
-        int[][] mat = { { 0, 2, 3 }, { 3, 2, 5 }, { 1, 4, 5 } };
+        int[][] mat = { { 1, 2, 3 }, { 3, 2, 5 }, { 1, 4, 0 } };
         print_arry(mat);
         xero(mat);
         System.out.println();
