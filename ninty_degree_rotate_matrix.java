@@ -10,6 +10,7 @@ public class ninty_degree_rotate_matrix {
         }
     }
 
+    // transpose of hte array
     public static void rot(int[][] mat) {
         for (int i = 0; i < mat.length; i++) {
             for (int j = i; j < mat.length; j++) {
@@ -18,12 +19,13 @@ public class ninty_degree_rotate_matrix {
                 mat[j][i] = mat_tem;
             }
         }
-
+        // towasds the middle of the aarray and swapping them
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat.length / 2; j++) {
                 int mat_tem = mat[i][j];
                 mat[i][j] = mat[i][mat.length - j - 1];
                 mat[i][mat.length - j - 1] = mat_tem;
+                System.out.println(mat.length - j - 1);
             }
         }
 
