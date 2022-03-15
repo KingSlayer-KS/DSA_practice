@@ -8,10 +8,10 @@ middle*/
 public class Check_if_permutation_of_string_is_palindrome {
     public static int count=0;
     public static boolean is_or_not =false;
-    public static boolean palindrome_or_not(String s) {
+    public static boolean palindrome_or_not(String str) {
         int[] chr = new int[128];// empty array of zeros
-        for (int i = 0; i < s.length(); i++) {
-            int val = s.charAt(i);
+        for (int i = 0; i < str.length(); i++) {
+            int val = str.charAt(i);
             chr[val]++;
         }
         for (int i = 0; i < chr.length; i++) {//iterate through every number fro the array and modlus by 2
@@ -26,9 +26,9 @@ public class Check_if_permutation_of_string_is_palindrome {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s=(sc.nextLine()).replaceAll(" ","");
+        String str=(sc.nextLine()).replaceAll(" ","");
         sc.close();
-        System.out.println(palindrome_or_not(s));
+        System.out.println(palindrome_or_not(str));
     }
 
 }
