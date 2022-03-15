@@ -34,7 +34,7 @@ length of both strings should be same
 creat empty arry of 127 size of zeros
 add 1 to the int value of the assccired character
 then subract if the charate rof the othe string matcjhe at that position 
-where the value becoem -1 it becoem s false
+where the value becomes -1 it becoem s false
 */
 
 /*
