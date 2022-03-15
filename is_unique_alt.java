@@ -1,7 +1,7 @@
 
 
 public class is_unique_alt {
-    public static boolean is(String str) {
+    public static boolean is_u(String str) {
 
         boolean[] is_unique = new boolean[128];
 
@@ -19,6 +19,6 @@ public class is_unique_alt {
 
     public static void main(String[] args) {
         
-        is("abc");
+        is_u("abc");
     }    
 }
