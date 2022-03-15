@@ -4,12 +4,12 @@ public class URLify {
     
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s1=sc.nextLine();
-        s1.trim();
+        String s=sc.nextLine();
+        s.trim();
         sc.close();
-        String s=s1.replaceAll("\\s","%20");
+        String s1=s.replaceAll("\\s","%20");
         
-        System.out.println(s);
+        System.out.println(s1);
         }
 
         
