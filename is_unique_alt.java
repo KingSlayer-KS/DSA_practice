@@ -19,6 +19,6 @@ public class is_unique_alt {
 
     public static void main(String[] args) {
         
-        is_unique_al("abc");
+        is_unique_al("ABC");
     }    
 }
