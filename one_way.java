@@ -41,7 +41,7 @@ public class one_way {
             }
         }
 
-        // System.out.println(i1 + "\n" + i2);
+        System.out.println(i1 + "\n" + i2);
         return true;
     }
 
