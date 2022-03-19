@@ -17,28 +17,33 @@ class Solution {
         }
     }
 
-    public ListNode Intersection(ListNode head_a, ListNode head_b) {
-        if (head_a == null || head_b == null) {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
             return null;
         }
-        ListNode head_b_tracker=head_b;
-        ListNode head_a_tracker=head_a;
-        while(head_a_tracker == head_b_tracker){
-            if(head_b_tracker.next==null){
-                head_b_tracker=head_a;
+        ListNode b = headB;
+        ListNode a = headA;
+        while (a != b) {
+            /*
+             * //didnt work
+             * if(b.next==null){
+             * b=headA;
+             * 
+             * }else{
+             * b=b.next;
+             * }
+             * if(a.next==null){
+             * a=headB;
+             * 
+             * }else{
+             * a=a.next;
+             */
 
-            }else{
-                head_b_tracker=head_b_tracker.next;
-            }
-            if(head_a_tracker.next==null){
-                head_a_tracker=head_b;
-
-            }else{
-                head_a_tracker=head_a_tracker.next;
-            }
-
+            b = b == null ? headA : b.next;
+            a = a == null ? headB : a.next;
         }
-        return head_b_tracker;
-    }
 
+        return b;
+
+    }
 }
