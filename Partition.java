@@ -1,4 +1,4 @@
-class Solution {
+class Partition {
 
     public class ListNode {
         int val;
