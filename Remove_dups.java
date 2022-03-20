@@ -1,6 +1,6 @@
 
 
-class Solution {
+class Remove_dups {
     
     public class ListNode {
         int val;
