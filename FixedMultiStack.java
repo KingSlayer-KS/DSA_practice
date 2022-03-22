@@ -68,7 +68,7 @@ public class FixedMultiStack {
 		return values;
 	}
 	
-	public int[] getStackValues(int stackNum) {
+	public int[] getStackValue(int stackNum) {
 		int[] items = new int[sizes[stackNum]];
 		for (int i = 0; i < items.length; i++) {
 			items[i] = values[stackNum * stackCapacity + i];
