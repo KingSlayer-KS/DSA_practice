@@ -1,5 +1,5 @@
 
-class Solution {
+class loop {
 
     public class ListNode {
         int val;
