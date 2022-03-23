@@ -27,8 +27,20 @@ public class Stack_of_plates {
             counter_for_stacks = topple_after;
         } else
             counter_for_stacks--;
-        //got to (arr_of_stacks.size() - 1)TH stack an pop the hell out of it lol
+        // got to (arr_of_stacks.size() - 1)TH stack an pop the hell out of it lol
         return (Integer) arr_of_stacks.get(arr_of_stacks.size() - 1).pop();
+    }
+
+    public static int popat(int val) {
+        if (val > arr_of_stacks.size() - 1) {
+            // if a stack has only one elment and we wan to initilize new stack
+            System.out.println("not possible");
+            return -1;
+        } else {
+            counter_for_stacks--;
+            return (Integer) arr_of_stacks.get(val).pop();
+            // got to (arr_of_stacks.size() - 1)TH stack an pop the hell out of it lol
+        }
     }
 
     public static void main(String[] args) {
@@ -45,6 +57,7 @@ public class Stack_of_plates {
         push(8);
         pop();
         push(8);
+        popat(0);
         push(8);
         push(8);
         push(8);
