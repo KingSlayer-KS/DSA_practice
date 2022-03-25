@@ -39,7 +39,6 @@ public class Stack_of_plates {
         } else {
             counter_for_stacks--;
             return (Integer) arr_of_stacks.get(val).pop();
-            // got to (arr_of_stacks.size() - 1)TH stack an pop the hell out of it lol
         }
     }
 
