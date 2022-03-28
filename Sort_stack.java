@@ -7,7 +7,7 @@ public class Sort_stack {
 	public static void sort(Stack<Integer> s1) {
 		Stack<Integer> s2 = new Stack<Integer>();
 		while (!s1.isEmpty()) {
-			/* Insert each element of stack1 in sorted order into stak2 . */
+			/* Insert each element of stack1 in sorted order into stack2 . */
 			int temporary = s1.pop();// temporaty elemet
 			while (!s2.isEmpty() && s2.peek() > temporary) {
 				s1.push(s2.pop());
