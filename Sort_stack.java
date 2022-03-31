@@ -44,7 +44,7 @@ public class Sort_stack {
 		return s1.pop();
 	}
 
-	// peek
+	// peek the stack
 	public static int pek() {
 
 		if (is_mt()) {
