@@ -65,7 +65,7 @@ public class Stack_of_plates {
         push(8);
         push(8);
         push(8);
-        push(8);
+        pop();
 
     }
 }
