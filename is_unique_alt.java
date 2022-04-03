@@ -1,5 +1,4 @@
 
-
 public class is_unique_alt {
     public static boolean is_unique_al(String str) {
 
@@ -12,13 +11,13 @@ public class is_unique_alt {
             if (unique[str.charAt(i)]) {
                 return false;
             }
-            unique[str.charAt(i)]= true;
+            unique[str.charAt(i)] = true;
         }
         return true;
     }
 
     public static void main(String[] args) {
-        
-        is_unique_al("ABC");
-    }    
+
+        is_unique_al("AhC");
+    }
 }

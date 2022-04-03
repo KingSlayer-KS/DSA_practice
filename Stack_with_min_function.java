@@ -10,14 +10,12 @@ public class Stack_with_min_function {
     }
 
     public static void push(int val) {
-		st.push(val);
-		if (mini.isEmpty() || mini.peek() > val) {
-			mini.push(val);
+        st.push(val);
+        if (mini.isEmpty() || mini.peek() > val) {
+            mini.push(val);
         }
 
-		
-
-	}
+    }
 
     public static int top() {
         return st.peek();
