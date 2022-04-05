@@ -1,5 +1,5 @@
 
-public class is_unique_alt {
+public class is_unique__alt {
     public static boolean is_unique_al(String str) {
 
         boolean[] unique = new boolean[128];
