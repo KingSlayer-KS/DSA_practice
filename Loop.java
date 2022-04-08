@@ -1,5 +1,5 @@
 
-class loop {
+class loop_detector {
 
     public class ListNode {
         int val;
