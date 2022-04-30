@@ -1,3 +1,4 @@
+package Linked_list;
 
 class loop_detector {
 
