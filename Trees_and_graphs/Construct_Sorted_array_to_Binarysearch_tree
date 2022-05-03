@@ -1,6 +1,8 @@
 // Java program to print BST in given range
 
 // A binary tree node
+package Trees_and_graphs;
+
 class Node {
 	
 	int data;
@@ -49,5 +51,6 @@ class BinaryTree {
 		
 	}
 }
+
 
 
